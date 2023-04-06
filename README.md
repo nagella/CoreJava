@@ -7,7 +7,7 @@ This repository has a few Core Java practice files which helps for Java Intervie
     - Singleton patterns are used in logging, caches, thread pools, configuration settings, device driver objects.
     - Design pattern is often used in conjunction with Factory design pattern.
     
-   **Advantages**
+    **Advantages**
     - Saves memory because object is not created at each request. Only single instance is reused again and again.
 
 2. **What Is a Default Method and When Do We Use It?**
