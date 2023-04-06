@@ -6,15 +6,15 @@
     - Singleton patterns are used in logging, caches, thread pools, configuration settings, device driver objects.
     - Design pattern is often used in conjunction with Factory design pattern.
    
-   **How To Implement**
+    **How To Implement**
 
-    - Create Private Constructor so that from external classes can't create Object.
-    - Private static variable of the same class that is the only instance of the class.
-    - Public static method that returns the instance of the class, this is the global
+     - Create Private Constructor so that from external classes can't create Object.
+     - Private static variable of the same class that is the only instance of the class.
+     - Public static method that returns the instance of the class, this is the global
       access point for the outer world to get the instance of the singleton class.
     
-  **Advantages**
-  - Saves memory because object is not created at each request. Only single instance is reused again and again.
+    **Advantages**
+     - Saves memory because object is not created at each request. Only single instance is reused again and again.
 
 2. **What Is a Default Method and When Do We Use It?**
    - A default method is a method with an implementation, which can be found in an interface.
