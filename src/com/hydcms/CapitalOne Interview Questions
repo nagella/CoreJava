@@ -1,0 +1,60 @@
+ 1. HTTP vs HTTPS
+ 2. Hashmap Vs HashTable Vs ConcurrentHashMap
+ 3. Explain index collision
+ 4. Singleton pattern and whats double locking in it
+ 5. Visitor pattern
+ 6. String Vs StringBuilder Vs StringBuffer
+ 7. REST vs SOAP
+ 8. Message queues
+ 9. Stack Vs Queue
+ 10. Task scheduling algorithms
+ 11. Do you keep track of technology, whats changed in java 1.7 and 1.8, since I said I worked on 1.6 in my project
+ 12. Demon thread
+ 13. ways to create a thread
+ 14. what happens when you run() a method,without start() method
+ 15. jquery : documentReady() vs onl0ad()
+ 16. Join vs Union, different types of joins, left, right, outer, cross, inner
+ 17. Indexing in SQL, clustered vs normal index
+ 18. NoSQL vs RDBMS differences
+ 19. Are all data types that are in RBMS allowed in noSql
+ 20. Equals() vs == 21. ArrayList Vs LinkedList() when to use when
+ 21. What is final, finalize, and finally. What do they do?
+ 22. What are some of the annotations to implement Rest Controller?
+ 23. How do you create a regular expression in Java. What class and method you use?
+ 24. What is difference of Overriding and Overloading methods?
+ 25. Did you use bean.xml file or annotations?
+ 26. Differences between abstract class and interface ?
+ 27. What are RESTful Web Services?
+ 28. What will happen if we call perform(null) as shown below?
+ 29. What is rule regarding overriding equals and hashCode method?
+ 30. What is a prototype design pattern?
+ 31. What is the use of synchronized keyword?
+
+26. Abstract class Vs Interface:
+
+    Abstract classes can have both abstract methods ( method declarations ) as well as concrete methods ( inherited to the derived classes )
+        whereas Interfaces can only have abstract methods ( method declarations ).
+    A class can extend single abstract class whereas it can implement multiple interfaces.
+
+27. RESTful Web Services:
+    1. http for client server communication,
+    2. XML / JSON as formatting language ,
+    3. Simple URI as address for the services and,
+    4. Stateless communication.
+28. What will happen if we call perform(null) ?
+
+    public void perform(Object obj) {
+    System.out.println("Object");
+    }
+
+    public void perform(Integer int) {
+    System.out.println("Integer");
+    }
+    Ans: Integer
+
+29. A Class must override the hashCode method if its overriding the equals method.
+30. The prototype pattern is a creational design pattern. It is used when the type of objects to create is determined by a prototypical instance,
+    which is cloned to produce new objects. Prototype is used when we need duplicate copies of objects.
+31. Synchronize is used to achieve mutual exclusion i.e at one time, the segment of the code, method that has been declared synchronized should be
+    executed by single thread only and hence the lock needs to be retrieved before executing the segment and then released.
+

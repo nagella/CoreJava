@@ -1,0 +1,5 @@
+1. What is group by and partion by in Oracle?
+2. You have two tables ex emp and dept but no index, need to join with best approach , how do you do and explain why?
+3. How do deploy docker image with open shift?
+4. 1 million records in list and list size is 1m-1 , values are 1 to 1m but 1 record is missing, how do you findout missing record from list?
+5. Java8 new features? can we have multiple default methods in funcational interface?
