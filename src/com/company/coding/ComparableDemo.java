@@ -20,7 +20,7 @@ public class ComparableDemo {
      * String class implements Comparable
      * Interface so we can use the sort method
      */
-    String[] names= new String[]{"Mahesh","Aanya","Thrinank","Priyanka","Dax","Daisy","Chritha"};
+    String[] names= new String[]{"Mahesh","Krishna","Rama","Rmana","Dax","Daisy","Chris"};
     Arrays.sort(names);
     System.out.println(Arrays.toString(names));
 
